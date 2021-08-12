@@ -1,0 +1,9 @@
+<div data-controller="hello">
+  <h1 data-target="hello.output"></h1>
+</div>
+<div data-controller="calculate">
+  <input type="number" data-calculate-target="addend">
+  <h3 data-calculate-target="currentValue">0</h3>
+  <button data-action="click->calculate#add">Add</button>
+  <button data-action="click->calculate#subtract">Subtract</button>
+</div>
